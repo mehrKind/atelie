@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "IRANSans";
+  src: url(font/IRANSansWeb.woff);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  direction: ltr;
+  font: 13px/25px "IRANSans","Myriad",Tahoma;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  min-height: auto;
+  color: white;
+  text-align: center;
+  background-image: url(../images/head-bg4.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+}
+
+hr {
+  display: block;
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #f04f40;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+hr.light {
+  border-color: white;
+}
+
+.navbar-default {
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav li {
+  float: right;
+}
+
+.navbar-default .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.btn {
+  border: 0;
+  border-radius: 300px;
+  padding: 15px 30px;
+}
+
+.btn-danger {
+  border-color: #f04f40;
+  background-color: #f04f40;
+}
+
+.btn-danger:hover {
+  background-color: #ed401c;
+}
+
+.header-content {
+  padding: 80px 150px;
+}
+
+.header-content h1 {
+  font-size: 65px;
+}
+
+.header-content p {
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.about-section {
+  background-color: #f04f40;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.about-section h2 {
+  font-size: 30px;
+}
+
+.about-section p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sevices-section {
+  padding: 100px 0;
+  color: #222;
+}
+
+.sevices-section h2 {
+  font-size: 30px;
+}
+
+.sevices-section .glyphicon {
+  font-size: 50px;
+  margin: 10px auto;
+  color: #f04f40;
+}
+
+.sevices-section h3 {
+  font-size: 24px;
+  margin: 10px 0 15px;
+}
+
+.portfolio-box {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  opacity: 0;
+  background-color: rgba(240, 95, 64, 0.8);
+  transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out;
+  -moz-transition: 0.2s all ease-in-out;
+  -o-transition: 0.2s all ease-in-out;
+}
+
+.portfolio-box .portfolio-box-caption:hover {
+  opacity: 1;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .category {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .name {
+  font-size: 25px;
+}
+
+.more-portfolio {
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+  background-color: #373737;
+}
+
+.more-portfolio h2 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+.contact-section {
+  width: 100%;
+  float: right;
+  padding: 100px 0;
+  color: #222;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+}
+
+.contact-section .glyphicon-earphone {
+  color: #f04f40;
+  font-size: 30px;
+  padding: 25px 0;
+}
+
+.contact-section span {
+  display: block;
+}
+
+@media screen and (max-width: 721px) {
+  .header-content {
+    padding: 0;
+  }
+  .header-content h1 {
+    font-size: 35px;
+  }
+  .header-content p {
+    font-size: 16px;
+    color: #fdfdfd;
+  }
+  .header-content .btn {
+    margin-bottom: 20px;
+  }
+  .navbar-default .navbar-nav li {
+    float: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
